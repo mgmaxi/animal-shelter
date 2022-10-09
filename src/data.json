@@ -40,7 +40,7 @@
       "caracter": ["vago"],
       "enfermedades": "ninguna",
       "comida": ["Pedigree", "lo que haya en la mesa"],
-      "img": "https://www.investigacionyciencia.es/images/21536/articleImage-minimal.jpg",
+      "img": "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg",
       "adoptado": false
     },
     {
@@ -58,7 +58,7 @@
       "actividades": ["juega todo el dia"],
       "cualidades": ["cariñosa"],
       "discapacidad": "visual",
-      "caracter": ["no"],
+      "caracter": ["Amigable"],
       "comida": ["vitalcat"],
       "img": "https://cf.ltkcdn.net/gatos/images/std/236641-800x515r1-etapas-desarrollo-gatitos.jpg",
       "adoptado": false
@@ -125,7 +125,7 @@
       "caracter": ["Tímida"],
       "enfermedades": "Ninguna",
       "comida": ["Carne cruda"],
-      "img": "imagen: https://i.picsum.photos/id/237/3500/2095.jpg?hmac=y2n_cflHFKpQwLOL1SSCtVDqL8NmOnBzEW7LYKZ-z_o",
+      "img": "https://i.picsum.photos/id/237/3500/2095.jpg?hmac=y2n_cflHFKpQwLOL1SSCtVDqL8NmOnBzEW7LYKZ-z_o",
       "adoptado": false
     },
     {
@@ -168,7 +168,7 @@
       "caracter": ["mimoso"],
       "enfermedades": "no",
       "comida": ["purina", "pollo"],
-      "img": "https://pixabay.com/es/photos/gato-rostro-ojos-retrato-1455468/",
+      "img": "https://cdn.pixabay.com/photo/2019/02/21/20/16/cat-4012162_1280.jpg",
       "adoptado": false
     },
     {
@@ -190,7 +190,7 @@
       "caracter": ["Amigable"],
       "enfermedades": "Ninguna",
       "comida": ["leche", "pollo"],
-      "img": "https://www.purina.es/sites/default/files/styles/ttt_image_510/public/2021-12/EL%20PRIMER%20D%C3%8DA%20DE%20UN%20GATO%20NUEVO%20EN%20CASA-1.jpg?itok=peJkgf-V",
+      "img": "https://cdn.pixabay.com/photo/2019/11/08/11/56/kitten-4611189_1280.jpg",
       "adoptado": false
     },
     {
@@ -234,7 +234,7 @@
       "caracter": ["Cariñoso"],
       "enfermedades": "ninguna",
       "comida": ["Royal canin"],
-      "img": "https://www.animalfiel.com/wp-content/uploads/2020/07/perro-mediano-shiba-inu.jpg",
+      "img": "https://cdn.pixabay.com/photo/2015/02/21/10/39/dog-644111_1280.jpg",
       "adoptado": false
     },
     {
@@ -651,7 +651,7 @@
       "caracter": ["Bipolar"],
       "enfermedades": "Ninguna",
       "comida": ["9lives"],
-      "img": "https://es.lovetoknow.com/imagenes/242328~gato-negro.jpg",
+      "img": "https://cf.ltkcdn.net/gatos/images/orig/242328-1600x1030-gato-negro.jpg",
       "adoptado": false
     },
     {
@@ -694,7 +694,7 @@
       "caracter": ["docil"],
       "enfermedades": "alergia",
       "comida": ["Purina", "atun"],
-      "img": "https://pixabay.com/es/photos/gato-animal-animales-1136084/",
+      "img": "https://cdn.pixabay.com/photo/2016/01/12/16/50/cat-1136084_1280.jpg",
       "adoptado": true
     }
   ]

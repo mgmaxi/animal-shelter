@@ -21,7 +21,13 @@ const Carousel = () => {
         modules={[Autoplay, Parallax, EffectFade]}
       >
         {data.map(animal=>(
-          <SwiperSlide><div className='carousel-content-container'><h2 className='carousel-animal-name'>{animal.nombre}</h2><p className='carousel-animal-info'>{animal.caracter}</p><img src={animal.img} alt={animal.nombre} className='caroulse-img' /></div></SwiperSlide>
+          <SwiperSlide>
+            <div className='carousel-content-container'>
+              <h2 className='carousel-animal-name'>{animal.nombre}</h2>
+              <p className='carousel-animal-info'>{animal.caracter[0][0].toUpperCase() + animal.caracter[0].substring(1)}</p>
+              <img src={animal.img} alt={animal.nombre} className='caroulse-img' />
+            </div>
+          </SwiperSlide>
         ))}
     </Swiper>
     </div>
