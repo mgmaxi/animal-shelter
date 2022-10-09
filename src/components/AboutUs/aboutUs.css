@@ -1,0 +1,97 @@
+.about-us{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.about-us h2 {
+    position: relative;
+    margin: 0 0 25px 0;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #FFF;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+}
+
+.about-us p {
+    padding: 0 100px;
+    width: 900px;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #FFF;
+    text-shadow: 0px 1px 4px #23430C;
+    word-wrap: break-word;
+}
+
+.cat2{
+    position: absolute;
+    top: -5px;
+    right: 80px;
+    width: 25px;
+
+}
+
+.footprints-title{
+    position: absolute;
+    right: -65px;
+    top: 5px;
+    width: 50px;
+    transform: rotate(-25deg);
+    opacity: .7;
+}
+
+.footprints-left{
+    position: absolute;
+    left: 15px;
+    bottom: 45px;
+    width: 25px;
+    transform: rotate(150deg);
+    animation-name: walk;
+    animation-duration: 8.12s;
+    animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+
+.footprints-left2{
+    position: absolute;
+    left: 35px;
+    bottom: 15px;
+    width: 25px;
+    transform: rotate(155deg);
+    animation-name: walk;
+    animation-duration: 8.25s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+/* Animations */
+
+@keyframes walk {
+    from {
+      opacity: 55%;
+      scale: 1.2;
+    }
+  
+    to {
+     opacity: 0;
+     scale: 1.1;
+
+
+   }
+  }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1200px) {
+    .about-us{
+    }
+  }
