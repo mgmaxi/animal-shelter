@@ -1,3 +1,7 @@
+.animal-card-container{
+    position: relative;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,7 @@
     width: 260px;
     height: 200px;
     object-fit: fill;
+    cursor: pointer;
 }
 
 .card-info{
