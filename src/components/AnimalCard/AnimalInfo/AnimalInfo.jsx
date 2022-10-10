@@ -20,7 +20,7 @@ const AnimalInfo = ({ animalInfo, onModalIsOpen }) => {
 					{objectProps.map(prop => (
 						<li key={prop}>
 							<span className="animal-info-property-name">
-								{prop[0].toUpperCase() + prop.substring(1)}:
+								{prop[0].toUpperCase() + prop.substring(1)}:{' '}
 							</span>
 							{Array.isArray(animalInfo[prop])
 								? animalInfo[prop].map(
