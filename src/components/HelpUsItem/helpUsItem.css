@@ -26,3 +26,11 @@
     color: #FFF;
 }
 
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    .help-us-item{
+        margin: 25px 0;
+    }
+
+}

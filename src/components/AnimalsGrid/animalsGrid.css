@@ -12,7 +12,7 @@
 }
 
 .swiper-container {
-    width: 480px;
+    width: 100%;
 }
 
 .animal-swiper{
@@ -34,33 +34,4 @@
 
 .swiper-button-next{
     right: 5px !important;
-}
-
-
-
-/* MEDIA QUERIES */
-
-  
-  @media screen and (min-width: 500px) {
-    .swiper-container {
-      width: 500px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .swiper-container {
-      width: 768px;
-    }
-  }
-    
-  @media screen and (min-width: 980px) {
-    .swiper-container {
-      width: 980px;
-    }
-  }
-    
-  @media screen and (min-width: 1100px) {
-    .swiper-container {
-      width: 100%;
-    }
 }

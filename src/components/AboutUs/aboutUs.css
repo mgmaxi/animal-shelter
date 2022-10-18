@@ -8,8 +8,6 @@
     height: 500px;
 }
 
-
-
 .about-us h2 {
     position: relative;
     margin: 0 0 25px 0;
@@ -20,7 +18,6 @@
 }
 
 .about-us p {
-    padding: 0 100px;
     width: 900px;
     line-height: 2rem;
     font-size: 1.3rem;
@@ -69,9 +66,6 @@
     animation-iteration-count: infinite;
 }
 
-
-
-
 /* Animations */
 
 @keyframes walk {
@@ -83,15 +77,23 @@
     to {
      opacity: 0;
      scale: 1.1;
-
-
    }
   }
 
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1200px) {
+  @media only screen and (max-width: 900px) {
     .about-us{
+        text-align: center;
+        height: auto;
+        width: 100vw;
+        padding: 35px 0;
     }
+    
+    .about-us p {
+        width: 100%;
+        text-align: center;
+    }
+
   }

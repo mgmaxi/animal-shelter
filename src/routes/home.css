@@ -1,20 +1,11 @@
 main{
     overflow: hidden;
-    /* background-color: rgb(255, 44, 44);
-    background-color: #ea6927;
-    background-color: #538667;
-
-
-background-color: #88AE4F;
-background-color: #F5D0C6;
-background-color: #5E704A;
-background-color: #538667; */
-background-color: #538667; 
-
+    background-color: #538667; 
 }
 
 .banner-adopt{
-    height: 400px;
+    height: auto;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    object-fit: fill;
 }

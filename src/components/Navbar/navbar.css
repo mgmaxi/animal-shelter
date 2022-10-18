@@ -1,6 +1,7 @@
 .logo-container{
     position: relative;
 }
+
 .logo{
     position: absolute;
     top: 25px;
@@ -10,7 +11,6 @@
     z-index: 5;
     animation: float 6s ease-in-out infinite;
 }
-
 
 /* Animations */
 
@@ -23,5 +23,15 @@
     }
     100% {
       transform: translatey(0px);
+    }
+  }
+
+  /* Media Queries */
+
+  @media only screen and (max-width: 600px) {
+
+    .logo{
+      height: 100px;
+      width: 100px;
     }
   }
